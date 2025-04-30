@@ -12,9 +12,14 @@ import './App.css'
 export default function App() {
   return (
     <Router>
-      <div className='container'>
-      <h2>Lakshith Jasti</h2>
+      <div className="container">
+      <div className='namecontainer'>
+      <h2>Lakshith</h2>
+      <h2 className='surname'>Jasti</h2>
+      </div>
+      <div className="navcontainer">
       <NavBar></NavBar>
+      </div>
       </div>
       <Routes>
         <Route path='/about' element={<About/>}></Route>
@@ -27,3 +32,4 @@ export default function App() {
     </Router>
   )
 }
+
