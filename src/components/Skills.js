@@ -17,6 +17,12 @@ export default function Skills() {
                 <h1>SQL</h1>
             </div>
         </div>
+            
+        <div className="section">
+            <div className="tiles">
+                <h1>Git&GitHub</h1>
+            </div>
+        </div>  
 
         <div className="section">
             <div className="tiles">
@@ -35,3 +41,4 @@ export default function Skills() {
     </div>
   )
 }
+
